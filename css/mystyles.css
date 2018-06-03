@@ -1,0 +1,468 @@
+body {
+    background: #ffff;
+    background-image: url(../img/backgrnd-01.png);
+    padding:2em;
+}
+h {
+    color: #1a1c2d;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+p {
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+}
+h2 {
+    font-size: 21px;
+    font-family: 'Roboto', serif;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+legend {
+    font-family: 'Roboto Slab', serif;
+}
+h6 {
+    color: #c0c0c0;
+    font-family: 'Roboto', sans-serif;
+}
+h6 a {
+    color: #C0C0C0;
+    font-family: 'Roboto', sans-serif;
+}
+h6 a:hover {
+    color: #1bbcbf;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* nav bar starts here */
+
+.navbar {
+          margin-bottom: 0;
+          border-radius: 0;
+          background-color: #fff;
+          color: #fff;
+          padding: 1% 0;
+          font-size: 1.2em;
+          border: 0;
+          font-family: 'Roboto', sans-serif;
+      }
+      .navbar-brand {
+          float: left;
+          min-height: 55px;
+          color: #1a1c2d !important;
+          font-family: 'Roboto', sans-serif;
+          font-size: 36px;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          font-weight: 700;
+          
+      }
+        
+      .navbar-inverse .navbar-nav .active a,.navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+          color: #ef5e5e;
+          background-color: #fff;
+      }
+      .navbar-inverse .navbar-nav li a {
+          color: #C0C0C0;
+          text-transform:uppercase;
+          letter-spacing: 3px;
+          font-size: 14px;
+      }
+        li > a {
+      position: relative;
+      color: #ef5e5e;
+      text-decoration: none;
+        }
+
+        li > a:hover {
+      color: #1bbcbf !important;
+        }
+
+        li > a:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: #1bbcbf;
+          visibility: hidden;
+          -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+          -webkit-transition: all 0.3s ease-in-out 0s;
+          transition: all 0.3s ease-in-out 0s;
+        }
+
+        li > a:hover:before {
+          visibility: visible;
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+        }     
+              @media (max-width: 900px){
+                  .fa {
+                      font-size: 20px;
+                      padding:10px;
+                  }
+              }
+
+              @media (max-width: 600px){
+                  .carousel-caption {
+                      display: none;
+                  }
+                  #icon {
+                      max-width: 150px;
+                  }
+                  h2 {
+                      font-size: 0.7em;
+                  }
+              }
+/* nav bar ends here */
+/* header starts here */
+.item1 {
+  grid-area: myArea;
+background-color: #fff;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas: 'myArea myArea . . .' 'myArea myArea . . .';
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.header03 {
+    max-width: 50%;
+    background-color: #fff;
+    display: inline;
+}
+.header02 {
+   max-width: 70%;
+    background-color: #fff;
+    display: inline;
+}
+.header01 {
+    max-height: 100%;
+        max-width: 100%
+}
+.header04 {
+   max-width: 50%;
+}
+
+/* header ends here */     
+      .container {
+          max-width: 960px;
+          margin: 4% auto;
+          background: #fff;
+          
+          background-attachment: fixed;
+          font-size: 24px;
+          padding: 25px;
+      }
+    .parallax {
+        background: url(../img/headerbeth.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height:500px;
+        }
+
+      footer {
+          width:100%;
+          background-color:#1a1c2d;
+          padding: 1%;
+          color: #FFF;
+      }
+      .fa {
+          padding: 20px;
+          font-size:25px;
+          color: #fff;
+      }
+      .fa:hover {
+          color: #d5d5d5;
+          text-decoration: none;
+      }
+      #icon {
+          max-width: 200px;
+          margin: 1% auto;
+      }
+        #success_message{ display: none;}
+    .well {
+        background: none;
+    }
+.btn {
+    border-radius: 0px !important;
+    background: #ef5e5e;
+    color: white;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    cursor: pointer;
+  display: inline-block;
+  transition: all .22s;
+    
+}
+.btn:hover {
+    background: #1bbcbf;
+    transform: translateY(-2px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+  ;
+}
+
+/* Copy from codepen.io */
+/* Lazy Load Styles */
+        .card-image {
+            display: block;
+            min-height: 20rem; /* layout hack */
+            background: #fff center center no-repeat;
+            background-size: cover;
+            filter:none;
+
+        }
+
+        .card-image > img {
+            display: block;
+            width: 100%;
+            opacity: 0; /* visually hide the img element */
+        }
+
+        .card-image.is-loaded {
+            filter: none; /* remove the blur on fullres image */
+            transition: filter 1s;
+        }
+
+        .card-list {
+            display: block;
+            margin: 1rem auto;
+            padding: 0;
+            font-size: 0;
+            text-align: center;
+            list-style: none;
+        }
+
+        .card {
+            display: inline-block;
+            width: 90%;
+            max-width: 40rem;
+            margin: 1rem;
+            font-size: 1rem;
+            text-decoration: none;
+            box-shadow: 0 0 3rem -1rem rgba(0,0,0,0.5);
+            transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+        }
+
+        .card:hover {
+            transform: translateY(-0.5rem) scale(1.0125);
+            box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
+        }
+
+        .card-description {
+            display: block;
+            padding: 1em 0.5em;
+            color: #515151;
+            text-decoration: none;
+        }
+
+        .card-description > h2 {
+            margin: 0 0 0.5em;
+        }
+
+        .card-description > p {
+            margin: 0;
+        }
+
+        .card-description:hover {
+            color: #515151;
+        }
+/* end lazy load codepen */
+
+/* life force page starts here */
+
+        .lf-explode {
+            align-content: center;
+        }
+        .lf-hands {
+            max-width: 60%;
+        }
+/* copy from code pen */
+
+    .ex-17 .upper{
+      padding: 2rem;
+      background: -moz-linear-gradient(right,  hsl(193, 43%, 45%) 0%, hsl(232, 45%, 64%) 100%);
+      background: -webkit-linear-gradient(right,  hsl(193, 43%, 45%) 0%,hsl(232, 45%, 64%) 100%);
+      background: linear-gradient(to left,  hsl(193, 43%, 45%) 0%,hsl(232, 45%, 64%) 100%);
+      position: relative;
+      padding-bottom: 7rem;
+    }
+
+    .ex-17 .upper p{
+      margin-bottom: 0;
+      text-align: center;
+    }
+
+    .ex-17 .upper .p-1{
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.8);
+      font-size: .875rem;
+      font-weight: 500;
+      letter-spacing: 2px;
+    }
+
+    .ex-17 .upper .p-2{
+        font-family: 'Roboto', serif;
+      font-size: 2rem;
+      color: #fff;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    }
+
+    .ex-17 .upper .line{
+      width: 3.5rem;
+      margin: 1.5rem auto;
+      height: 3px;
+      background: #222;
+    }
+
+    .ex-17 .upper .p-3{
+      color: #fff;
+      max-width: 40rem;
+      margin: 0 auto;
+      width: 100%;  
+    }
+
+    .ex-17 .lower{
+      background: #f0fcff;
+      padding-top: 5rem;
+    }
+
+    .ex-17 .wrapper{
+      width: 90%;
+      max-width: 80rem;
+      margin: 0 auto;
+      padding: 2rem 0;
+    }
+
+    .ex-17 .title{
+        font-family: 'Roboto', serif;
+      font-size: 2rem;
+      color: #222;
+    }
+
+    .ex-17 .desc{
+      font-size: 1.75rem;
+    }
+
+    .ex-17 .lower .line{
+      width: 3.5rem;
+      background: #7A85CD;
+      height: 3px;
+      margin-bottom: 1.5rem;
+    }
+
+    .ex-17 .handler{
+      width: 90%;
+      margin: 0 auto;
+      right: 0;
+      height: 0px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    .ex-17 .block{
+      background: #fff;
+      max-width: 32rem;
+      margin: 0 auto;
+      padding: 2rem 0;
+      border-radius: 5px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      position: absolute;
+      transform: translateY(-50%);
+      box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+    }
+    
+.ex-17 .block .bistro-logo {
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .ex-17 .block p{
+        font-family: 'Roboto', serif;
+      font-size: 1rem;
+      max-width: 28rem;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .ex-17 .form{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1.5rem;
+    }
+
+    .ex-17 input{
+      height: 2rem;
+      background: #f9f9f9;
+      border-top: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      width: 14rem;
+      padding: 0 .5rem;
+    }
+
+    .ex-17 button{
+      background: hsl(227, 25%, 25%);
+      color: #fff;
+      text-transform: uppercase;
+      height: 2rem;
+      border: 1px solid #303751;
+      font-weight: 500;
+      cursor: pointer;
+      padding: 0 1rem;
+    }
+
+    .ex-17 button:hover{
+      background: hsl(227, 25%, 15%);
+    }
+/* end codepend */
+
+/* bistro page starts here */
+
+bis-mobile-mock01 {
+    align-content: center !important;
+}
+.bistro-before {
+    width: 100%;
+}
+/* bistro page ends here */
+/* thesis process page starts here */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.process-img {
+  width:20%;
+  height: 20%;
+  margin: 10px;
+  transition: all 1s;
+}
+
+.process-img:hover {
+  transform: scale(1.1);
+}
+/* thesis process page ends here */
+
+
+

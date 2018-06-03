@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sunspots</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/zirafa/bootstrap-grid-only/master/css/grid12.css'>
+
+
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      body {
+  background-image: url(https://thumbs.gfycat.com/RingedSpicyKodiakbear-max-1mb.gif);
+  padding: 2rem;
+  align-content: center !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+/* Start */
+.graph-opts {
+  margin-bottom: 30px;
+}
+.graph-opts > div:last-child {
+  text-align: right !important;
+}
+.graph-opts select {
+  width: 150px;
+}
+.graph-opts button {
+  width: 120px;
+  margin-left: 20px;
+}
+
+.exam-graphs {
+  box-sizing: border-box;
+  padding: 50px;
+  font-family: "Roboto", sans-serif;
+  background: rgba(35, 31, 32, .9);
+  border: 4px dashed rgba(255, 255, 255, .1);
+  color: white;
+}
+.exam-graphs__header {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.75;
+  border-bottom: 2px solid #2f2c2d;
+}
+
+.exam-counts {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 12px;
+}
+.exam-counts__col {
+  border-right: 2px solid #2f2c2d;
+}
+.exam-counts__col:last-child {
+  border-right: 0;
+}
+.exam-counts__num {
+  font-size: 40px;
+  line-height: 1.33;
+   color: rgba(252,207,64, .9);
+}
+
+.exam-module {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid rgba(255, 255, 255, .5);;
+  background: rgba(255, 255, 255, .1);
+}
+.exam-module__header {
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 2px solid #2f2c2d;
+  text-align: center !important;
+  align-content: center !important;
+}
+.exam-module__header > h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: inherit;
+}
+
+.legend {
+  text-align: center;
+  margin: 15px -10px 0;
+}
+.legend > ul {
+  padding-left: 0;
+  display: table;
+  table-layout: fixed;
+  margin: 0 auto;
+}
+.legend > ul > li {
+  display: table-cell;
+  vertical-align: middle;
+  list-style: none;
+  text-align: left;
+  padding: 0 10px;
+}
+.legend__key {
+  white-space: nowrap;
+  margin-bottom: 5px;
+}
+.legend__color {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.legend__label, .legend__value {
+  font-size: 11px;
+}
+.legend__value {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 3px;
+}
+
+.custom-reports {
+  margin-top: 40px;
+}
+
+.success {
+  color: #00a77c;
+}
+
+.error {
+  color: #d2232a;
+}
+a {
+  color: rgba(252,207,64, .5) !important;
+  text-decoration: none !important;
+
+}
+a:hover {
+  color: white !important;
+}
+.sub {
+  color: rgba(252,207,64, .5);
+  transition: transform 1s;
+}
+.sub:hover{
+  color:rgb(252,207,64);
+  transform: translate(10px, 10px);
+}
+.sub-btn {
+  color: rgba(252,255,255, .8);
+  transition: transform 1s;
+}
+.sub-btn:hover{
+  color:rgb(252,255,255);
+  transform: translate(10px, 10px);
+}
+.card {
+  color: black;
+}
+li {
+  list-style: none;
+}
+h3 {
+  text-align: center !important;
+}
+.container {
+  text-align: center !important;
+  align-content: center !important;
+}
+.row {
+  text-align: center !important;
+  align-content: center !important;
+}
+h2 {
+  text-align: center !important;
+}
+h5 {
+  text-align: center !important;
+  align-content: center !important;
+}
+button {
+  align-content: center !important;
+  text-align: center !important;
+  background-color: rgb(252,207,64) !important;
+  color: black !important;
+  border: none !important;
+}
+
+
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <a href="http://www.bethkillory.com/">
+              <h3 class="sub">Home</h3>
+    </a>
+      <div class="container">
+      <div class="exam-graphs">
+        <div class="row">
+          <div class="col-12">
+              <h2>Voting Question<br><h5>What are sunspots?</h5></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+                <p>A. The sun's freckles</p>
+            </div>
+            <div class="col-4">
+                <p>B. Black holes</p>
+            </div>
+            <div class="col-4">
+                <p>C. A spot or patch appearing from time to time on the Sun’s surface, caused by interactions with the Sun’s magnetic field</p>
+                </p>
+            </div>
+          </div>
+                <div class="row justify-content-end">
+                <div class="col-12">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample                  " aria-expanded="false" aria-controls="collapseExample">
+                      Click to check your answer!
+                    </button>
+                </p>
+              </div>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        C. A spot or patch appearing from time to time on the Sun’s surface, caused by interactions with the Sun’s magnetic field
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+            <div class="col-12">
+              <h2>More on sunspots</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <ul>
+                <li>Sunspots are cooler areas on the Sun’s photosphere</li>
+                <li>They appear dark by contrast with their surroundings</li>
+                <li>They come in North and South pairs</li>
+              </ul>
+            </div>
+            </div>
+            <br>
+          <div class="row">
+            <div class="col-6">
+                  <h2>
+                  Research Question: 
+                  <h5>Are sunspots more likely to appear at certain times of the year?</h5>
+                  </h2>
+                </div>
+            <div class="col-6">
+                  <h2>
+                  Hypothesis: 
+                  <h5>We believe that solar activity increases during the autumn months.</h5>
+              </h2>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="row">
+            <div class="col-12">
+              <h2>Procedure</h2>
+              </div>
+            <div class="col-4">
+              <p>We used www.spaceweather.com to collect data on the numbers of sunspots occuring on the 15th of each month for 10 years from January 2008 to December 2017</p>
+            </div>
+            <div class="col-4">
+              <p>We took the averages of the amount of sunspots occuring on the 15th of each of the 12 months across the 10 years</p>
+            </div>
+            <div class="col-4">
+              <p>We calculated the average for all of the months combined so we could determine which months, on average, experienced an above average number of sunspots. The number determining the difference between below average and above average was 57.65</p>
+            </div>
+            </div>
+           <div class="exam-counts row text-center">
+                <h3 class="col-xs-12">
+                     The Annual Average of Days without Sunspots
+                    </h3>
+            <div class="exam-counts__col col-xs-4">
+                  2009
+            <div class="exam-counts__num">71%</div>
+                
+           </div>
+          <div class="exam-counts__col col-xs-4">
+                  2010
+            <div class="exam-counts__num">14%</div>
+          
+            </div>
+            <div class="exam-counts__col col-xs-4">
+                  2011
+            <div class="exam-counts__num"><1%</div>
+                
+            </div>
+           
+            <div class="exam-counts__col col-xs-4">
+                  2012
+            <div class="exam-counts__num">0%</div>
+                
+            </div>
+            <div class="exam-counts__col col-xs-4">
+                  2013
+            <div class="exam-counts__num">0%</div>
+                
+            </div>
+            <div class="exam-counts__col col-xs-4">
+                  2014
+            <div class="exam-counts__num"><1%</div>
+                
+            </div>
+
+            <div class="exam-counts__col col-xs-4">
+                  2015
+            <div class="exam-counts__num">0%</div>
+                
+            </div>
+            <div class="exam-counts__col col-xs-4">
+                  2016
+            <div class="exam-counts__num">9%</div>
+               
+            </div>
+            <div class="exam-counts__col col-xs-4">
+                  2017
+            <div class="exam-counts__num">28%</div>
+                
+            </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+
+          <div id="exam-vol" class="exam-module exam-module--line">
+           <div class="exam-module__header">
+             <h3>Occurence of Sunspots (2008-2017)</h3>
+           </div>
+          </div> 
+        </div>
+      </div>
+      <div class="row">
+         <div class="col-xs-8">
+          <div id="incomp" class="exam-module exam-module--bar">
+            <h3 class="exam-module__header">
+              Total Number of Sunspots
+            </h3>
+          </div>
+              <p class="sub">
+                Coded by Beth Killory<br>Data collected by Miranda Reilly, April Nothdurft, & Evan Greene from <a href="spaceweather.com">spaceweather.com</a>
+              </p>
+        </div>
+
+      <div class="col-6 col-md-4">
+                    <h2>Conclusion:</h2>
+            <p>From the data gathered we detected we observed the average number of sunspots were above average during the months of May and November for this sunspot cycle. Other inferences we could make from the research is that sunspots occur in a cycle reaching highs and lows spanning up to multiple decades. <br><br>Our sun is currently in its 11<small>th</small> sunspot cycle. Although we noticed a spike in activity around the months of May and November, ten years is a small sample size in the context of the universe and more data would need to be gathered to further support our hypothesis.</p>
+          </div>
+            
+      </div>
+    </div>
+  </div>
+</div>
+
+
+              <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js'></script>
+
+              
+
+                <script  src="js/index.js"></script>
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
