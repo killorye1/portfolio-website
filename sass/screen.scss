@@ -1,21 +1,78 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+.background {
+	width: 100vw;
+	height: 100vw;
+	background: #fffff;
+}
+
+$particleSize: 5vmin;
+$animationDuration: 5s;
+$amount: 20;
+.background span {
+	width: $particleSize;
+	height: $particleSize;
+	border-radius: $particleSize;
+	backface-visibilty: hidden;
+	position: absolute;
+	animation-name: move;
+	animation-duration: $animationDuration;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	$colors: (
+		#583C87,
+    	#E45A84,
+    	#FFACAC
+	);
+	@for $i from 1 through $amount {
+		&:nth-child(#{$i}) {
+			color: nth($colors, random(length($colors)));
+			top: random(100) * 1%;
+			left: random(100) * 1%;
+			animation-duration: (random($animationDuration * 10) / 10) * 1s + 10s;
+			animation-delay: random(($animationDuration + 10s) * 10) / 10 * -1s;
+			transform-origin: (random(50) - 25) * 1vw (random(50) - 25) * 1vh;
+			$blurRadius: (random() + 0.5) * $particleSize * 0.5;
+			$x: if(random() > 0.5, -1, 1);
+			box-shadow: ($particleSize * 2 * $x) 0 $blurRadius currentColor;
+		}
+	}
+}
+
+@keyframes move {
+	100% {
+		transform: translate3d(0, 0, 1px) rotate(360deg);
+	}
+}
+
+/* my styles */
 body {
     background: #ffff;
-    background-image: url(../img/backgrnd-01.png);
     padding:2em;
+    margin: 0;
 }
 h {
     color: #1a1c2d;
 }
 p {
     font-size: 16px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 h2 {
     font-size: 21px;
-    font-family: 'Roboto', serif;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 4vw;
 }
 h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: ;
 }
 h4 {
     font-family: 'Roboto', sans-serif;
@@ -46,17 +103,17 @@ h6 a:hover {
           padding: 1% 0;
           font-size: 1.2em;
           border: 0;
-          font-family: 'Roboto', sans-serif;
+          font-family: 'IBM Plex Sans', sans-serif;
       }
       .navbar-brand {
           float: left;
           min-height: 55px;
           color: #1a1c2d !important;
-          font-family: 'Roboto', sans-serif;
+          font-family: 'IBM Plex Serif', serif;
+          font-weight: 300;
+          font-style: italic;
           font-size: 5vw;
-          letter-spacing: 3px;
-          text-transform: uppercase;
-          font-weight: 700;
+          text-transform: capitalize;
           
       }
         
@@ -120,38 +177,11 @@ h6 a:hover {
               }
 /* nav bar ends here */
 /* header starts here */
-.item1 {
-  grid-area: myArea;
-background-color: #fff;
-}
-.grid-container {
-  display: grid;
-  grid-template-areas: 'myArea myArea . . .' 'myArea myArea . . .';
-  grid-gap: 10px;
-  padding: 10px;
-}
-.grid-container > div {
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-.header03 {
-    max-width: 50%;
-    background-color: #fff;
-    display: inline;
-}
-.header02 {
-   max-width: 70%;
-    background-color: #fff;
-    display: inline;
-}
-.header01 {
-    max-height: 100%;
-        max-width: 100%
-}
-.header04 {
-   max-width: 50%;
-}
+	h1 {
+		font-family: "IBM Plex Serif", serif;
+		font-weight: 700;
+		font-size: 8vw;
+	}
 
 /* header ends here */     
       .container {
@@ -256,6 +286,7 @@ background-color: #fff;
         .card:hover {
             transform: translateY(-0.5rem) scale(1.0125);
             box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
+            text-decoration: none;
         }
 
         .card-description {
@@ -275,6 +306,7 @@ background-color: #fff;
 
         .card-description:hover {
             color: #515151;
+            text-decoration: none;
         }
 /* end lazy load codepen */
 
@@ -458,8 +490,3 @@ bis-mobile-mock01 {
   transform: scale(1.1);
 }
 /* thesis process page ends here */
-
-
-
-
-
