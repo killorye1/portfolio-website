@@ -1,0 +1,827 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/screen.scss */
+.background {
+  width: 100vw;
+  height: 100vw;
+  background: #fffff;
+}
+
+/* line 17, ../sass/screen.scss */
+.background span {
+  width: 5vmin;
+  height: 5vmin;
+  border-radius: 5vmin;
+  backface-visibilty: hidden;
+  position: absolute;
+  animation-name: move;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(1) {
+  color: #583C87;
+  top: 6%;
+  left: 73%;
+  animation-duration: 14.3s;
+  animation-delay: -2s;
+  transform-origin: 12vw 8vh;
+  box-shadow: 10vmin 0 2.98554vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(2) {
+  color: #FFACAC;
+  top: 47%;
+  left: 28%;
+  animation-duration: 13.8s;
+  animation-delay: -10.7s;
+  transform-origin: -9vw 23vh;
+  box-shadow: -10vmin 0 1.72761vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(3) {
+  color: #583C87;
+  top: 92%;
+  left: 80%;
+  animation-duration: 12.9s;
+  animation-delay: -6.6s;
+  transform-origin: -16vw 20vh;
+  box-shadow: -10vmin 0 3.50255vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(4) {
+  color: #583C87;
+  top: 58%;
+  left: 41%;
+  animation-duration: 13.4s;
+  animation-delay: -11.9s;
+  transform-origin: -13vw -22vh;
+  box-shadow: 10vmin 0 3.53941vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(5) {
+  color: #E45A84;
+  top: 66%;
+  left: 91%;
+  animation-duration: 12.6s;
+  animation-delay: -13.6s;
+  transform-origin: 0vw 3vh;
+  box-shadow: 10vmin 0 1.39115vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(6) {
+  color: #583C87;
+  top: 29%;
+  left: 70%;
+  animation-duration: 10.7s;
+  animation-delay: -11.4s;
+  transform-origin: 5vw 12vh;
+  box-shadow: -10vmin 0 1.51107vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(7) {
+  color: #583C87;
+  top: 85%;
+  left: 44%;
+  animation-duration: 11.9s;
+  animation-delay: -1s;
+  transform-origin: -19vw -22vh;
+  box-shadow: 10vmin 0 3.61135vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(8) {
+  color: #FFACAC;
+  top: 60%;
+  left: 12%;
+  animation-duration: 13.6s;
+  animation-delay: -0.2s;
+  transform-origin: 25vw -14vh;
+  box-shadow: -10vmin 0 2.72199vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(9) {
+  color: #FFACAC;
+  top: 21%;
+  left: 95%;
+  animation-duration: 13.6s;
+  animation-delay: -13.8s;
+  transform-origin: 6vw -15vh;
+  box-shadow: 10vmin 0 1.98923vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(10) {
+  color: #FFACAC;
+  top: 46%;
+  left: 63%;
+  animation-duration: 11.1s;
+  animation-delay: -11.1s;
+  transform-origin: 8vw 10vh;
+  box-shadow: 10vmin 0 3.22839vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(11) {
+  color: #583C87;
+  top: 88%;
+  left: 81%;
+  animation-duration: 10.6s;
+  animation-delay: -0.6s;
+  transform-origin: -21vw 14vh;
+  box-shadow: 10vmin 0 2.27121vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(12) {
+  color: #FFACAC;
+  top: 41%;
+  left: 63%;
+  animation-duration: 13.7s;
+  animation-delay: -14.8s;
+  transform-origin: -3vw 12vh;
+  box-shadow: 10vmin 0 1.87338vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(13) {
+  color: #E45A84;
+  top: 11%;
+  left: 97%;
+  animation-duration: 13.1s;
+  animation-delay: -11.7s;
+  transform-origin: 1vw -5vh;
+  box-shadow: -10vmin 0 2.80911vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(14) {
+  color: #583C87;
+  top: 9%;
+  left: 20%;
+  animation-duration: 14.4s;
+  animation-delay: -1.4s;
+  transform-origin: 13vw -5vh;
+  box-shadow: -10vmin 0 3.46172vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(15) {
+  color: #E45A84;
+  top: 7%;
+  left: 95%;
+  animation-duration: 14.6s;
+  animation-delay: -1.7s;
+  transform-origin: 17vw 11vh;
+  box-shadow: -10vmin 0 2.64077vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(16) {
+  color: #E45A84;
+  top: 12%;
+  left: 82%;
+  animation-duration: 13.7s;
+  animation-delay: -1s;
+  transform-origin: -9vw 5vh;
+  box-shadow: 10vmin 0 1.73194vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(17) {
+  color: #FFACAC;
+  top: 87%;
+  left: 99%;
+  animation-duration: 13.9s;
+  animation-delay: -8.5s;
+  transform-origin: -16vw -1vh;
+  box-shadow: -10vmin 0 1.41086vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(18) {
+  color: #583C87;
+  top: 15%;
+  left: 30%;
+  animation-duration: 10.7s;
+  animation-delay: -5.2s;
+  transform-origin: 6vw 11vh;
+  box-shadow: 10vmin 0 3.5107vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(19) {
+  color: #E45A84;
+  top: 38%;
+  left: 53%;
+  animation-duration: 12.8s;
+  animation-delay: -12s;
+  transform-origin: 2vw -18vh;
+  box-shadow: 10vmin 0 2.25221vmin currentColor;
+}
+/* line 33, ../sass/screen.scss */
+.background span:nth-child(20) {
+  color: #FFACAC;
+  top: 90%;
+  left: 65%;
+  animation-duration: 11.2s;
+  animation-delay: -4.7s;
+  transform-origin: 19vw -4vh;
+  box-shadow: 10vmin 0 2.22766vmin currentColor;
+}
+
+@keyframes move {
+  100% {
+    transform: translate3d(0, 0, 1px) rotate(360deg);
+  }
+}
+/* my styles */
+/* line 54, ../sass/screen.scss */
+body {
+  background: #ffff;
+  padding: 2em;
+  margin: 0;
+}
+
+/* line 59, ../sass/screen.scss */
+h {
+  color: #1a1c2d;
+}
+
+/* line 62, ../sass/screen.scss */
+p {
+  font-size: 16px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* line 66, ../sass/screen.scss */
+h2 {
+  font-size: 21px;
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 4vw;
+}
+
+/* line 73, ../sass/screen.scss */
+h3 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 2vw;
+}
+
+/* line 77, ../sass/screen.scss */
+h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 80, ../sass/screen.scss */
+legend {
+  font-family: 'Roboto Slab', serif;
+}
+
+/* line 83, ../sass/screen.scss */
+h6 {
+  color: #c0c0c0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 87, ../sass/screen.scss */
+h6 a {
+  color: #C0C0C0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 91, ../sass/screen.scss */
+h6 a:hover {
+  color: #1bbcbf;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* nav bar starts here */
+/* line 98, ../sass/screen.scss */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #fff;
+  color: #fff;
+  padding: 1% 0;
+  font-size: 1.2em;
+  border: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* line 108, ../sass/screen.scss */
+.navbar-brand {
+  float: left;
+  min-height: 55px;
+  color: #1a1c2d !important;
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 5vw;
+  text-transform: capitalize;
+}
+
+/* line 120, ../sass/screen.scss */
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+  color: #ef5e5e;
+  background-color: #fff;
+}
+
+/* line 124, ../sass/screen.scss */
+.navbar-inverse .navbar-nav li a {
+  color: #C0C0C0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+/* line 130, ../sass/screen.scss */
+li > a {
+  position: relative;
+  color: #ef5e5e;
+  text-decoration: none;
+}
+
+/* line 136, ../sass/screen.scss */
+li > a:hover {
+  color: #1bbcbf !important;
+}
+
+/* line 140, ../sass/screen.scss */
+li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #1bbcbf;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+/* line 155, ../sass/screen.scss */
+li > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+@media (max-width: 900px) {
+  /* line 161, ../sass/screen.scss */
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+@media (max-width: 600px) {
+  /* line 168, ../sass/screen.scss */
+  .carousel-caption {
+    display: none;
+  }
+
+  /* line 171, ../sass/screen.scss */
+  #icon {
+    max-width: 150px;
+  }
+
+  /* line 174, ../sass/screen.scss */
+  h2 {
+    font-size: 0.7em;
+  }
+}
+/* nav bar ends here */
+/* header starts here */
+/* line 180, ../sass/screen.scss */
+h1 {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-size: 8vw;
+}
+
+/* header ends here */
+/* line 187, ../sass/screen.scss */
+.container {
+  max-width: 960px;
+  margin: 4% auto;
+  background: #fff;
+  background-attachment: fixed;
+  font-size: 24px;
+  padding: 25px;
+}
+
+/* line 196, ../sass/screen.scss */
+.parallax {
+  background: url(../img/headerbeth.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 500px;
+}
+
+/* line 204, ../sass/screen.scss */
+footer {
+  width: 100%;
+  background-color: #1a1c2d;
+  padding: 1%;
+  color: #FFF;
+}
+
+/* line 210, ../sass/screen.scss */
+.fa {
+  padding: 20px;
+  font-size: 25px;
+  color: #fff;
+}
+
+/* line 215, ../sass/screen.scss */
+.fa:hover {
+  color: #d5d5d5;
+  text-decoration: none;
+}
+
+/* line 219, ../sass/screen.scss */
+#icon {
+  max-width: 200px;
+  margin: 1% auto;
+}
+
+/* line 223, ../sass/screen.scss */
+#success_message {
+  display: none;
+}
+
+/* line 224, ../sass/screen.scss */
+.well {
+  background: none;
+}
+
+/* line 227, ../sass/screen.scss */
+.btn {
+  border-radius: 0px !important;
+  background: #ef5e5e;
+  color: white;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  display: inline-block;
+  transition: all .22s;
+}
+
+/* line 237, ../sass/screen.scss */
+.btn:hover {
+  background: #1bbcbf;
+  transform: translateY(-2px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Copy from codepen.io */
+/* Lazy Load Styles */
+/* line 246, ../sass/screen.scss */
+.card-image {
+  display: block;
+  min-height: 20rem;
+  /* layout hack */
+  background: #fff center center no-repeat;
+  background-size: cover;
+  filter: none;
+}
+
+/* line 255, ../sass/screen.scss */
+.card-image > img {
+  display: block;
+  width: 100%;
+  opacity: 0;
+  /* visually hide the img element */
+}
+
+/* line 261, ../sass/screen.scss */
+.card-image.is-loaded {
+  filter: none;
+  /* remove the blur on fullres image */
+  transition: filter 1s;
+}
+
+/* line 266, ../sass/screen.scss */
+.card-list {
+  display: block;
+  margin: 1rem auto;
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+  list-style: none;
+}
+
+/* line 275, ../sass/screen.scss */
+.card {
+  display: inline-block;
+  width: 90%;
+  max-width: 40rem;
+  margin: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.5);
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+}
+
+/* line 286, ../sass/screen.scss */
+.card:hover {
+  transform: translateY(-0.5rem) scale(1.0125);
+  box-shadow: 0 0.5em 3rem -1rem rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+/* line 292, ../sass/screen.scss */
+.card-description {
+  display: block;
+  padding: 1em 0.5em;
+  color: #515151;
+  text-decoration: none;
+}
+
+/* line 299, ../sass/screen.scss */
+.card-description > h2 {
+  margin: 0 0 0.5em;
+}
+
+/* line 303, ../sass/screen.scss */
+.card-description > p {
+  margin: 0;
+}
+
+/* line 307, ../sass/screen.scss */
+.card-description:hover {
+  color: #515151;
+  text-decoration: none;
+}
+
+/* end lazy load codepen */
+/* life force page starts here */
+/* line 315, ../sass/screen.scss */
+.lf-explode {
+  align-content: center;
+}
+
+/* line 318, ../sass/screen.scss */
+.lf-hands {
+  max-width: 60%;
+}
+
+/* copy from code pen */
+/* line 323, ../sass/screen.scss */
+.ex-17 .upper {
+  padding: 2rem;
+  background: -moz-linear-gradient(right, #418fa4 0%, #7a85cd 100%);
+  background: -webkit-linear-gradient(right, #418fa4 0%, #7a85cd 100%);
+  background: linear-gradient(to left, #418fa4 0%, #7a85cd 100%);
+  position: relative;
+  padding-bottom: 7rem;
+}
+
+/* line 332, ../sass/screen.scss */
+.ex-17 .upper p {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* line 337, ../sass/screen.scss */
+.ex-17 .upper .p-1 {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: .875rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+/* line 345, ../sass/screen.scss */
+.ex-17 .upper .p-2 {
+  font-family: 'Roboto', serif;
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* line 352, ../sass/screen.scss */
+.ex-17 .upper .line {
+  width: 3.5rem;
+  margin: 1.5rem auto;
+  height: 3px;
+  background: #222;
+}
+
+/* line 359, ../sass/screen.scss */
+.ex-17 .upper .p-3 {
+  color: #fff;
+  max-width: 40rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* line 366, ../sass/screen.scss */
+.ex-17 .lower {
+  background: #f0fcff;
+  padding-top: 5rem;
+}
+
+/* line 371, ../sass/screen.scss */
+.ex-17 .wrapper {
+  width: 90%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+/* line 378, ../sass/screen.scss */
+.ex-17 .title {
+  font-family: 'Roboto', serif;
+  font-size: 2rem;
+  color: #222;
+}
+
+/* line 384, ../sass/screen.scss */
+.ex-17 .desc {
+  font-size: 1.75rem;
+}
+
+/* line 388, ../sass/screen.scss */
+.ex-17 .lower .line {
+  width: 3.5rem;
+  background: #7A85CD;
+  height: 3px;
+  margin-bottom: 1.5rem;
+}
+
+/* line 395, ../sass/screen.scss */
+.ex-17 .handler {
+  width: 90%;
+  margin: 0 auto;
+  right: 0;
+  height: 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 405, ../sass/screen.scss */
+.ex-17 .block {
+  background: #fff;
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+  border-radius: 5px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+  transform: translateY(-50%);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* line 419, ../sass/screen.scss */
+.ex-17 .block .bistro-logo {
+  max-width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 426, ../sass/screen.scss */
+.ex-17 .block p {
+  font-family: 'Roboto', serif;
+  font-size: 1rem;
+  max-width: 28rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 434, ../sass/screen.scss */
+.ex-17 .form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+/* line 441, ../sass/screen.scss */
+.ex-17 input {
+  height: 2rem;
+  background: #f9f9f9;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  width: 14rem;
+  padding: 0 .5rem;
+}
+
+/* line 451, ../sass/screen.scss */
+.ex-17 button {
+  background: #303750;
+  color: #fff;
+  text-transform: uppercase;
+  height: 2rem;
+  border: 1px solid #303751;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0 1rem;
+}
+
+/* line 462, ../sass/screen.scss */
+.ex-17 button:hover {
+  background: #1d2130;
+}
+
+/* end codepend */
+/* bistro page starts here */
+/* line 469, ../sass/screen.scss */
+bis-mobile-mock01 {
+  align-content: center !important;
+}
+
+/* line 472, ../sass/screen.scss */
+.bistro-before {
+  width: 100%;
+}
+
+/* bistro page ends here */
+/* thesis process page starts here */
+/* line 477, ../sass/screen.scss */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* line 482, ../sass/screen.scss */
+.process-img {
+  width: 20%;
+  height: 20%;
+  margin: 10px;
+  transition: all 1s;
+}
+
+/* line 489, ../sass/screen.scss */
+.process-img:hover {
+  transform: scale(1.1);
+}
+
+/* thesis process page ends here */
