@@ -88,203 +88,203 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(1) {
-  color: #583C87;
-  top: 6%;
-  left: 73%;
-  animation-duration: 14.3s;
-  animation-delay: -2s;
-  transform-origin: 12vw 8vh;
-  box-shadow: 10vmin 0 2.98554vmin currentColor;
+  color: #E45A84;
+  top: 47%;
+  left: 5%;
+  animation-duration: 11.8s;
+  animation-delay: -2.4s;
+  transform-origin: 23vw 19vh;
+  box-shadow: 10vmin 0 3.28832vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(2) {
-  color: #FFACAC;
-  top: 47%;
-  left: 28%;
-  animation-duration: 13.8s;
-  animation-delay: -10.7s;
-  transform-origin: -9vw 23vh;
-  box-shadow: -10vmin 0 1.72761vmin currentColor;
+  color: #583C87;
+  top: 99%;
+  left: 77%;
+  animation-duration: 13.6s;
+  animation-delay: -2.2s;
+  transform-origin: 23vw -14vh;
+  box-shadow: -10vmin 0 1.26687vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(3) {
-  color: #583C87;
-  top: 92%;
-  left: 80%;
-  animation-duration: 12.9s;
-  animation-delay: -6.6s;
-  transform-origin: -16vw 20vh;
-  box-shadow: -10vmin 0 3.50255vmin currentColor;
+  color: #FFACAC;
+  top: 36%;
+  left: 58%;
+  animation-duration: 14.6s;
+  animation-delay: -7.1s;
+  transform-origin: -23vw -11vh;
+  box-shadow: 10vmin 0 2.28443vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(4) {
-  color: #583C87;
-  top: 58%;
-  left: 41%;
-  animation-duration: 13.4s;
-  animation-delay: -11.9s;
-  transform-origin: -13vw -22vh;
-  box-shadow: 10vmin 0 3.53941vmin currentColor;
+  color: #FFACAC;
+  top: 41%;
+  left: 58%;
+  animation-duration: 11.7s;
+  animation-delay: -1.4s;
+  transform-origin: -9vw 21vh;
+  box-shadow: -10vmin 0 1.44932vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(5) {
-  color: #E45A84;
-  top: 66%;
-  left: 91%;
-  animation-duration: 12.6s;
-  animation-delay: -13.6s;
-  transform-origin: 0vw 3vh;
-  box-shadow: 10vmin 0 1.39115vmin currentColor;
+  color: #FFACAC;
+  top: 44%;
+  left: 54%;
+  animation-duration: 10.9s;
+  animation-delay: -11.6s;
+  transform-origin: -19vw 15vh;
+  box-shadow: -10vmin 0 2.83494vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(6) {
   color: #583C87;
-  top: 29%;
-  left: 70%;
-  animation-duration: 10.7s;
-  animation-delay: -11.4s;
-  transform-origin: 5vw 12vh;
-  box-shadow: -10vmin 0 1.51107vmin currentColor;
+  top: 9%;
+  left: 17%;
+  animation-duration: 14.8s;
+  animation-delay: -1.4s;
+  transform-origin: 20vw 10vh;
+  box-shadow: -10vmin 0 2.84929vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(7) {
-  color: #583C87;
-  top: 85%;
-  left: 44%;
-  animation-duration: 11.9s;
-  animation-delay: -1s;
-  transform-origin: -19vw -22vh;
-  box-shadow: 10vmin 0 3.61135vmin currentColor;
+  color: #FFACAC;
+  top: 60%;
+  left: 96%;
+  animation-duration: 14s;
+  animation-delay: -9.1s;
+  transform-origin: -20vw 2vh;
+  box-shadow: 10vmin 0 3.088vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(8) {
-  color: #FFACAC;
-  top: 60%;
-  left: 12%;
-  animation-duration: 13.6s;
-  animation-delay: -0.2s;
-  transform-origin: 25vw -14vh;
-  box-shadow: -10vmin 0 2.72199vmin currentColor;
+  color: #E45A84;
+  top: 87%;
+  left: 100%;
+  animation-duration: 13.7s;
+  animation-delay: -12.3s;
+  transform-origin: -3vw -12vh;
+  box-shadow: 10vmin 0 2.78955vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(9) {
-  color: #FFACAC;
-  top: 21%;
-  left: 95%;
-  animation-duration: 13.6s;
-  animation-delay: -13.8s;
-  transform-origin: 6vw -15vh;
-  box-shadow: 10vmin 0 1.98923vmin currentColor;
+  color: #583C87;
+  top: 51%;
+  left: 81%;
+  animation-duration: 11.9s;
+  animation-delay: -3.3s;
+  transform-origin: 13vw -19vh;
+  box-shadow: 10vmin 0 3.55616vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(10) {
-  color: #FFACAC;
-  top: 46%;
-  left: 63%;
-  animation-duration: 11.1s;
-  animation-delay: -11.1s;
-  transform-origin: 8vw 10vh;
-  box-shadow: 10vmin 0 3.22839vmin currentColor;
+  color: #583C87;
+  top: 39%;
+  left: 80%;
+  animation-duration: 12.8s;
+  animation-delay: -6.7s;
+  transform-origin: -9vw 9vh;
+  box-shadow: -10vmin 0 1.43802vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(11) {
-  color: #583C87;
-  top: 88%;
-  left: 81%;
-  animation-duration: 10.6s;
-  animation-delay: -0.6s;
-  transform-origin: -21vw 14vh;
-  box-shadow: 10vmin 0 2.27121vmin currentColor;
+  color: #E45A84;
+  top: 62%;
+  left: 45%;
+  animation-duration: 11.7s;
+  animation-delay: -9.5s;
+  transform-origin: -23vw 21vh;
+  box-shadow: -10vmin 0 2.44504vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(12) {
-  color: #FFACAC;
-  top: 41%;
-  left: 63%;
-  animation-duration: 13.7s;
-  animation-delay: -14.8s;
-  transform-origin: -3vw 12vh;
-  box-shadow: 10vmin 0 1.87338vmin currentColor;
+  color: #E45A84;
+  top: 8%;
+  left: 26%;
+  animation-duration: 11.7s;
+  animation-delay: -13.1s;
+  transform-origin: -20vw 5vh;
+  box-shadow: -10vmin 0 1.61867vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(13) {
-  color: #E45A84;
-  top: 11%;
-  left: 97%;
-  animation-duration: 13.1s;
-  animation-delay: -11.7s;
-  transform-origin: 1vw -5vh;
-  box-shadow: -10vmin 0 2.80911vmin currentColor;
+  color: #583C87;
+  top: 66%;
+  left: 31%;
+  animation-duration: 12.2s;
+  animation-delay: -10.7s;
+  transform-origin: 10vw -4vh;
+  box-shadow: 10vmin 0 2.78481vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(14) {
-  color: #583C87;
-  top: 9%;
-  left: 20%;
-  animation-duration: 14.4s;
-  animation-delay: -1.4s;
-  transform-origin: 13vw -5vh;
-  box-shadow: -10vmin 0 3.46172vmin currentColor;
+  color: #FFACAC;
+  top: 91%;
+  left: 14%;
+  animation-duration: 12.2s;
+  animation-delay: -14.4s;
+  transform-origin: 5vw 2vh;
+  box-shadow: -10vmin 0 3.4889vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(15) {
   color: #E45A84;
-  top: 7%;
-  left: 95%;
-  animation-duration: 14.6s;
+  top: 96%;
+  left: 11%;
+  animation-duration: 12.3s;
   animation-delay: -1.7s;
-  transform-origin: 17vw 11vh;
-  box-shadow: -10vmin 0 2.64077vmin currentColor;
+  transform-origin: -17vw -9vh;
+  box-shadow: -10vmin 0 2.29891vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(16) {
-  color: #E45A84;
-  top: 12%;
-  left: 82%;
-  animation-duration: 13.7s;
-  animation-delay: -1s;
-  transform-origin: -9vw 5vh;
-  box-shadow: 10vmin 0 1.73194vmin currentColor;
+  color: #583C87;
+  top: 37%;
+  left: 77%;
+  animation-duration: 11.1s;
+  animation-delay: -11.7s;
+  transform-origin: -11vw 9vh;
+  box-shadow: -10vmin 0 1.25818vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(17) {
-  color: #FFACAC;
-  top: 87%;
-  left: 99%;
-  animation-duration: 13.9s;
-  animation-delay: -8.5s;
-  transform-origin: -16vw -1vh;
-  box-shadow: -10vmin 0 1.41086vmin currentColor;
+  color: #E45A84;
+  top: 20%;
+  left: 36%;
+  animation-duration: 11.3s;
+  animation-delay: -11.6s;
+  transform-origin: 9vw -1vh;
+  box-shadow: 10vmin 0 2.45126vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(18) {
   color: #583C87;
-  top: 15%;
-  left: 30%;
-  animation-duration: 10.7s;
-  animation-delay: -5.2s;
-  transform-origin: 6vw 11vh;
-  box-shadow: 10vmin 0 3.5107vmin currentColor;
+  top: 33%;
+  left: 7%;
+  animation-duration: 11.8s;
+  animation-delay: -14.6s;
+  transform-origin: -22vw -15vh;
+  box-shadow: -10vmin 0 2.08214vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(19) {
   color: #E45A84;
-  top: 38%;
-  left: 53%;
+  top: 46%;
+  left: 86%;
   animation-duration: 12.8s;
-  animation-delay: -12s;
-  transform-origin: 2vw -18vh;
-  box-shadow: 10vmin 0 2.25221vmin currentColor;
+  animation-delay: -10.4s;
+  transform-origin: -2vw -6vh;
+  box-shadow: 10vmin 0 1.40341vmin currentColor;
 }
 /* line 33, ../sass/screen.scss */
 .background span:nth-child(20) {
-  color: #FFACAC;
-  top: 90%;
-  left: 65%;
-  animation-duration: 11.2s;
-  animation-delay: -4.7s;
-  transform-origin: 19vw -4vh;
-  box-shadow: 10vmin 0 2.22766vmin currentColor;
+  color: #583C87;
+  top: 72%;
+  left: 21%;
+  animation-duration: 14.1s;
+  animation-delay: -6.1s;
+  transform-origin: -18vw -21vh;
+  box-shadow: -10vmin 0 2.85224vmin currentColor;
 }
 
 @keyframes move {
@@ -323,35 +323,34 @@ h2 {
 /* line 73, ../sass/screen.scss */
 h3 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 2vw;
 }
 
 /* line 77, ../sass/screen.scss */
 h4 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* line 80, ../sass/screen.scss */
 legend {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'IBM Plex Serif', serif;
 }
 
 /* line 83, ../sass/screen.scss */
 h6 {
   color: #c0c0c0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* line 87, ../sass/screen.scss */
 h6 a {
   color: #C0C0C0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* line 91, ../sass/screen.scss */
 h6 a:hover {
   color: #1bbcbf;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* nav bar starts here */
@@ -375,7 +374,7 @@ h6 a:hover {
   font-family: 'IBM Plex Serif', serif;
   font-weight: 300;
   font-style: italic;
-  font-size: 5vw;
+  font-size: 1.8em;
   text-transform: capitalize;
 }
 
@@ -454,7 +453,7 @@ li > a:hover:before {
 /* nav bar ends here */
 /* header starts here */
 /* line 180, ../sass/screen.scss */
-h1 {
+.header-text {
   font-family: "IBM Plex Serif", serif;
   font-weight: 700;
   font-size: 8vw;
@@ -564,7 +563,7 @@ footer {
 
 /* line 266, ../sass/screen.scss */
 .card-list {
-  display: block;
+  display: inline-block;
   margin: 1rem auto;
   padding: 0;
   font-size: 0;
@@ -575,7 +574,7 @@ footer {
 /* line 275, ../sass/screen.scss */
 .card {
   display: inline-block;
-  width: 90%;
+  width: 40%;
   max-width: 40rem;
   margin: 1rem;
   font-size: 1rem;
